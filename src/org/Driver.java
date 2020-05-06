@@ -15,7 +15,7 @@ public class Driver {
             int choose = s.nextInt();
             switch (choose)
             {
-                case 1: System.out.println("1");//这里替换成教学资源管理的入口
+                case 1: SrcManager.srcManagerMain();//这里替换成教学资源管理的入口
                     break;
                 case 2: System.out.println("2");//替换成自动排课入口
                     break;
@@ -26,6 +26,7 @@ public class Driver {
                 case 5: quit = true;
                     break;
             }
+            greeting();
 
         }
 
@@ -33,6 +34,6 @@ public class Driver {
 
     private static void greeting() {
         System.out.println("Hello, Choose you operation.");
-        System.out.println("1. 教学资源\n2. 自动排课3. 手动排课\n4. 排课表查询\n5. 退出");
+        System.out.println("1. 教学资源\n2. 自动排课\n3. 手动排课\n4. 排课表查询\n5. 退出");
     }
 }
