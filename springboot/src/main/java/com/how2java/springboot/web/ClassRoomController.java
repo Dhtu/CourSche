@@ -27,12 +27,12 @@ public class ClassRoomController {
 
     /*restful 部分*/
     @GetMapping("/classrooms")
-    public PageInfo<ClassRoom> list(@RequestParam(value = "start", defaultValue = "1") int start, @RequestParam(value = "size", defaultValue = "5") int size) throws Exception {
+    public PageInfo<ClassRoom> list(@RequestParam(value = "start", defaultValue = "1") int start, @RequestParam(value = "size", defaultValue = "20") int size) throws Exception {
         PageHelper.startPage(start, size);
         List<ClassRoom> hs = classRoomService.list();
         System.out.println(hs.size());
 
-        return new PageInfo<>(hs, 5);
+        return new PageInfo<>(hs, 20);
     }
 
     @GetMapping("/classrooms/{id}")
