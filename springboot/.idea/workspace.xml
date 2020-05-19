@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66a2b8cb-fbb4-4739-a447-280dd364af5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/springboot/web/ClassRoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/springboot/web/ClassRoomController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listClassroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listClassroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editClassroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editClassroom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -70,7 +73,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589810447497</updated>
-      <workItem from="1589810450272" duration="175000" />
+      <workItem from="1589810450272" duration="949000" />
+      <workItem from="1589896357356" duration="550000" />
     </task>
     <servers />
   </component>
@@ -87,8 +91,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1589896754445">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1589896754445">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1589896754445">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1589896754445">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
+    <state width="1877" height="295" key="GridCell.Tab.1.bottom" timestamp="1589896754445">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
+    <state width="1877" height="295" key="GridCell.Tab.1.center" timestamp="1589896754445">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
+    <state width="1877" height="295" key="GridCell.Tab.1.left" timestamp="1589896754445">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
+    <state width="1877" height="295" key="GridCell.Tab.1.right" timestamp="1589896754445">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
     <state x="2451" y="349" width="858" height="731" key="Registry" timestamp="1589810578757">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
