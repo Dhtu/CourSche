@@ -1,8 +1,6 @@
 package com.how2java.springboot.web;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 @RestController
@@ -10,5 +8,11 @@ public class IndexController {
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     public ModelAndView index() {
         return new ModelAndView("index");
+    }
+
+    @GetMapping("/autoSchedule")
+    public void list() throws Exception {
+        System.out.println("start auto schedule");
+//        return new PageInfo<>(hs, 20);
     }
 }
