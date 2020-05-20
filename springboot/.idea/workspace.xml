@@ -19,9 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a2b8cb-fbb4-4739-a447-280dd364af5c" name="Default Changelist" comment="">
+    <list default="true" id="66a2b8cb-fbb4-4739-a447-280dd364af5c" name="Default Changelist" comment="完成了教学资源管理功能">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/springboot/web/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editClassroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editClassroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listClassroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listClassroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/editClassroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editClassroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/listClassroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/listClassroom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +40,27 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1c5FFxHrAtsCGHJdUjvjc80mAiW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -54,6 +74,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\JedisTest\springboot\src\main\webapp\css" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot" />
@@ -62,6 +87,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -74,8 +102,17 @@
       <option name="presentableId" value="Default" />
       <updated>1589810447497</updated>
       <workItem from="1589810450272" duration="949000" />
-      <workItem from="1589896357356" duration="550000" />
+      <workItem from="1589896357356" duration="1079000" />
+      <workItem from="1589973619388" duration="906000" />
     </task>
+    <task id="LOCAL-00001" summary="完成了教学资源管理功能">
+      <created>1589897141912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589897141912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,39 +130,43 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成了教学资源管理功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了教学资源管理功能" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1589896754445">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1589974180593">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1589896754445">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589974180593" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1589974180593">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1589896754445">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589974180593" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1589974180593">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1589896754445">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589974180593" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1589974180593">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
-    <state width="1877" height="295" key="GridCell.Tab.1.bottom" timestamp="1589896754445">
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589974180593" />
+    <state width="1877" height="295" key="GridCell.Tab.1.bottom" timestamp="1589974180593">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
-    <state width="1877" height="295" key="GridCell.Tab.1.center" timestamp="1589896754445">
+    <state width="1877" height="295" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589974180593" />
+    <state width="1877" height="295" key="GridCell.Tab.1.center" timestamp="1589974180593">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
-    <state width="1877" height="295" key="GridCell.Tab.1.left" timestamp="1589896754445">
+    <state width="1877" height="295" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589974180593" />
+    <state width="1877" height="295" key="GridCell.Tab.1.left" timestamp="1589974180593">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
-    <state width="1877" height="295" key="GridCell.Tab.1.right" timestamp="1589896754445">
+    <state width="1877" height="295" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589974180593" />
+    <state width="1877" height="295" key="GridCell.Tab.1.right" timestamp="1589974180593">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589896754445" />
+    <state width="1877" height="295" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589974180593" />
     <state x="2451" y="349" width="858" height="731" key="Registry" timestamp="1589810578757">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -134,5 +175,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2381" y="184" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589810530722" />
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1589897146616">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589897146616" />
   </component>
 </project>

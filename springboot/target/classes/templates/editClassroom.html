@@ -5,6 +5,8 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/vue.min.js"></script>
     <script src="./js/axios.min.js"></script>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/bootstrap.min.js"></script>
     <style type="text/css">
         div#app{
             margin:20px auto;
@@ -18,15 +20,18 @@
 <div id="app">
     <div id="div4Update">
 
-        教室名称:
-        <input type="type"    v-model="classroom4Update.type" />
-        <br>
-        血量：
-        <input type="number"    v-model="classroom4Update.number" />
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="教室名称" aria-describedby="basic-addon1"
+                   v-model="classroom4Update.type"/>
+        </div>
+        <div class="input-group input-group">
+            <input type="number" class="form-control" placeholder="容量" aria-describedby="basic-addon1"
+                   v-model="classroom4Update.number"/>
+        </div>
         <input type="hidden"    v-model="classroom4Update.id" />
         <br>
-        <button type="button"  v-on:click="update">修改</button>
-        <button type="button"  v-on:click="cancel">取消</button>
+        <button type="button" class="btn btn-info" v-on:click="update">修改</button>
+        <button type="button" class="btn btn-danger" v-on:click="cancel">取消</button>
 
     </div>
 </div>
