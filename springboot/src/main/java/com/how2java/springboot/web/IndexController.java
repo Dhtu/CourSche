@@ -11,7 +11,7 @@ public class IndexController {
     }
 
     @GetMapping("/autoSchedule")
-    public void list() throws Exception {
+    public void autoSchedule() throws Exception {
         System.out.println("start auto schedule");
 //        return new PageInfo<>(hs, 20);
     }
