@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.how2java.springboot.mapper.CourseMapper">
+    <resultMap id="BaseResultMap" type="com.how2java.springboot.pojo.Course">
+        <result column="course_ID" jdbcType="VARCHAR" property="courseId"/>
+        <result column="course_name" jdbcType="VARCHAR" property="courseName"/>
+        <result column="course_teacher" jdbcType="VARCHAR" property="courseTeacher"/>
+        <result column="semester" jdbcType="VARCHAR" property="semester"/>
+        <result column="department" jdbcType="VARCHAR" property="department"/>
+        <result column="credit" jdbcType="VARCHAR" property="credit"/>
+        <result column="introduction" jdbcType="VARCHAR" property="introduction"/>
+        <result column="exam_time" jdbcType="VARCHAR" property="examTime"/>
+        <result column="course_time" jdbcType="VARCHAR" property="courseTime"/>
+        <result column="course_place" jdbcType="VARCHAR" property="coursePlace"/>
+        <result column="if_single_week" jdbcType="VARCHAR" property="ifSingleWeek"/>
+        <result column="capacity" jdbcType="VARCHAR" property="capacity"/>
+    </resultMap>
+    <insert id="insert" parameterType="com.how2java.springboot.pojo.Course">
+        <selectKey keyProperty="courseId" order="AFTER" resultType="java.lang.String">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into course (course_name, course_teacher, semester,
+        department, credit, introduction,
+        exam_time, course_time, course_place,
+        if_single_week, capacity)
+        values (#{courseName,jdbcType=VARCHAR}, #{courseTeacher,jdbcType=VARCHAR}, #{semester,jdbcType=VARCHAR},
+        #{department,jdbcType=VARCHAR}, #{credit,jdbcType=VARCHAR}, #{introduction,jdbcType=VARCHAR},
+        #{examTime,jdbcType=VARCHAR}, #{courseTime,jdbcType=VARCHAR}, #{coursePlace,jdbcType=VARCHAR},
+        #{ifSingleWeek,jdbcType=VARCHAR}, #{capacity,jdbcType=VARCHAR})
+    </insert>
+    <select id="selectAll" resultMap="BaseResultMap">
+        select course_ID,
+               course_name,
+               course_teacher,
+               semester,
+               department,
+               credit,
+               introduction,
+               exam_time,
+               course_time,
+               course_place,
+               if_single_week,
+               capacity
+        from course
+    </select>
+</mapper>
