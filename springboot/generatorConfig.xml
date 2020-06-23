@@ -55,7 +55,7 @@
 <!--            <generatedKey column="ID" sqlStatement="Mysql" identity="true" />-->
 <!--        </table>-->
 
-        <table tableName="course" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true">
+        <table tableName="scheduled_course" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true">
             <generatedKey column="course_id" sqlStatement="Mysql" identity="true" />
         </table>
     </context>
