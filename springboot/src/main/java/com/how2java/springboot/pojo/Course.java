@@ -3,93 +3,130 @@ package com.how2java.springboot.pojo;
 import java.io.Serializable;
 
 public class Course implements Serializable {
-    private String id;
+    private String courseId;
+    private String courseName;
+    private String courseTeacher;
+    private String semester;
+    private String department;
+    private String credit;
+    private String introduction;
+    private String examTime;
+    private String courseTime;
+    private String coursePlace;
+    private String ifSingleWeek;
+    private String capacity;
 
-    private Float credit;
-
-    private String intro;
-
-    private String name;
-
-    private Integer numLessonsEachWeek;
-
-    private Short departmentId;
-
-    private Short majorId;
-
-    private static final long serialVersionUID = 1L;
-
-    public String getId() {
-        return id;
+    public String getCapacity() {
+        return capacity;
     }
 
-    public void setId(String id) {
-        this.id = id == null ? null : id.trim();
+    public String getCourseId() {
+        return courseId;
     }
 
-    public Float getCredit() {
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public String getCoursePlace() {
+        return coursePlace;
+    }
+
+    public String getCourseTeacher() {
+        return courseTeacher;
+    }
+
+    public String getCourseTime() {
+        return courseTime;
+    }
+
+    public String getCredit() {
         return credit;
     }
 
-    public void setCredit(Float credit) {
+    public String getDepartment() {
+        return department;
+    }
+
+    public String getExamTime() {
+        return examTime;
+    }
+
+    public String getIfSingleWeek() {
+        return ifSingleWeek;
+    }
+
+    public String getIntroduction() {
+        return introduction;
+    }
+
+    public String getSemester() {
+        return semester;
+    }
+
+    public void setCapacity(String capacity) {
+        this.capacity = capacity;
+    }
+
+    public void setCourseId(String courseId) {
+        this.courseId = courseId;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+
+    public void setCoursePlace(String coursePlace) {
+        this.coursePlace = coursePlace;
+    }
+
+    public void setCourseTeacher(String courseTeacher) {
+        this.courseTeacher = courseTeacher;
+    }
+
+    public void setCourseTime(String courseTime) {
+        this.courseTime = courseTime;
+    }
+
+    public void setCredit(String credit) {
         this.credit = credit;
     }
 
-    public String getIntro() {
-        return intro;
+    public void setDepartment(String department) {
+        this.department = department;
     }
 
-    public void setIntro(String intro) {
-        this.intro = intro == null ? null : intro.trim();
+    public void setExamTime(String examTime) {
+        this.examTime = examTime;
     }
 
-    public String getName() {
-        return name;
+    public void setIfSingleWeek(String ifSingleWeek) {
+        this.ifSingleWeek = ifSingleWeek;
     }
 
-    public void setName(String name) {
-        this.name = name == null ? null : name.trim();
+    public void setIntroduction(String introduction) {
+        this.introduction = introduction;
     }
 
-    public Integer getNumLessonsEachWeek() {
-        return numLessonsEachWeek;
-    }
-
-    public void setNumLessonsEachWeek(Integer numLessonsEachWeek) {
-        this.numLessonsEachWeek = numLessonsEachWeek;
-    }
-
-    public Short getDepartmentId() {
-        return departmentId;
-    }
-
-    public void setDepartmentId(Short departmentId) {
-        this.departmentId = departmentId;
-    }
-
-    public Short getMajorId() {
-        return majorId;
-    }
-
-    public void setMajorId(Short majorId) {
-        this.majorId = majorId;
+    public void setSemester(String semester) {
+        this.semester = semester;
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", id=").append(id);
-        sb.append(", credit=").append(credit);
-        sb.append(", intro=").append(intro);
-        sb.append(", name=").append(name);
-        sb.append(", numLessonsEachWeek=").append(numLessonsEachWeek);
-        sb.append(", departmentId=").append(departmentId);
-        sb.append(", majorId=").append(majorId);
-        sb.append(", serialVersionUID=").append(serialVersionUID);
-        sb.append("]");
-        return sb.toString();
+        return "Course{" +
+                "courseId='" + courseId + '\'' +
+                ", courseName='" + courseName + '\'' +
+                ", courseTeacher='" + courseTeacher + '\'' +
+                ", semester='" + semester + '\'' +
+                ", department='" + department + '\'' +
+                ", credit='" + credit + '\'' +
+                ", introduction='" + introduction + '\'' +
+                ", examTime='" + examTime + '\'' +
+                ", courseTime='" + courseTime + '\'' +
+                ", coursePlace='" + coursePlace + '\'' +
+                ", ifSingleWeek='" + ifSingleWeek + '\'' +
+                ", capacity='" + capacity + '\'' +
+                '}';
     }
 }

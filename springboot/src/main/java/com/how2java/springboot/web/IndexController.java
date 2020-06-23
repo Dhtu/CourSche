@@ -1,10 +1,16 @@
 package com.how2java.springboot.web;
 
+import com.how2java.springboot.service.autoScheService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class IndexController {
+
+    @Autowired
+    autoScheService autoScheService;
+
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     public ModelAndView index() {
         return new ModelAndView("index");
@@ -12,7 +18,6 @@ public class IndexController {
 
     @GetMapping("/autoSchedule")
     public void autoSchedule() throws Exception {
-        System.out.println("start auto schedule");
-//        return new PageInfo<>(hs, 20);
+        autoScheService.autoSche();
     }
 }
